@@ -5,50 +5,48 @@ import { Briefcase, Code, Users, Award, GraduationCap, Smile } from 'lucide-reac
 
 // Placeholder data - replace with actual content
 const summaryData = {
-  professionalSummary: "Highly motivated and detail-oriented Software Engineer with 5+ years of experience in designing, developing, and maintaining scalable web applications. Proven ability to work effectively in fast-paced environments and collaborate with cross-functional teams to deliver high-quality software solutions. Passionate about learning new technologies and applying them to solve complex problems.",
+  professionalSummary: "🚀 Passionate Java Developer | Spring Boot | Microservices | Kafka | Scalable API Solutions With over 2 years of experience in backend development, I specialize in building scalable, high-performance microservices using Java, Spring Boot, and Kafka. My expertise lies in designing event-driven architectures, optimizing API performance, and leveraging multi-threading for efficient data processing. Currently, at Evernorth, I am working on Pharmacy APIs, developing scalable solutions using Spring Boot, Kafka, and microservices while utilizing Splunk and Argo for monitoring and CI/CD automation. Previously, at Capgemini, I contributed to reducing bug rates by 25%, streamlining microservices architecture, and enhancing system reliability. 🔹 Tech Stack: Java | Spring Boot | Microservices | Kafka | REST APIs | Multi-threading | PostgreSQL | OracleSQL | Docker | Kubernetes | Jenkins | Argo | OpenShift | Splunk | Agile💡 Always eager to optimize system performance, solve complex problems, and collaborate with teams to deliver robust and scalable solutions.",
   technicalStrengths: [
-    "JavaScript (ES6+)", "TypeScript", "React", "Next.js", "Node.js",
-    "Express", "Python", "Django", "SQL", "NoSQL (MongoDB)",
-    "Docker", "Kubernetes", "AWS", "Git", "CI/CD", "REST APIs", "GraphQL"
+    "Java", "Spring Boot", "Microservices", "Kafka", "REST APIs","Docker","Kubernetes","Orchestration","PostgreSQL","OracleSQL",
+    "CI/CD", "Agile Methodologies", "Event-Driven Architecture", "Multi-threading", "Splunk", "Argo", "OpenShift","Jenkins"
   ],
   softSkills: [
     "Problem Solving", "Communication", "Teamwork", "Adaptability",
     "Time Management", "Leadership", "Critical Thinking"
   ],
   hobbies: [ // Added Hobbies section data
-    "Open Source Contribution", "Tech Blogging", "Hiking", "Photography", "Cooking"
+    "Tech Blogging", "Hiking", "Photography", "Cooking"
   ],
   experience: [
     {
       title: "Senior Software Engineer",
-      company: "Tech Solutions Inc.",
-      period: "Jan 2021 - Present",
+      company: "Evernorth Health Services", 
+      period: "Dec 2024 - Present",
       description: "Led development of key features for a large-scale e-commerce platform using React, Node.js, and AWS. Mentored junior engineers and improved code quality through code reviews and pair programming.",
     },
     {
-      title: "Software Engineer",
-      company: "Web Innovators LLC",
-      period: "Jun 2018 - Dec 2020",
+      title: "Senior Software Engineer",
+      company: "Capgemini",
+      period: "Oct 2022 - Dec 2024",
       description: "Developed and maintained client websites using JavaScript, Python/Django, and various CMS platforms. Collaborated with designers to implement responsive UI/UX.",
     },
   ],
   certifications: [
-    "AWS Certified Solutions Architect - Associate",
-    "Certified Kubernetes Application Developer (CKAD)",
-    "Professional Scrum Master™ I (PSM I)"
+    "AWS Certified Cloud Practitioner",
+    "Salesforce PD1"
   ],
   education: [
     {
-      degree: "Master of Science in Computer Science",
-      institution: "University of Technology",
-      period: "Sep 2016 - May 2018",
-      description: "Focused on machine learning and distributed systems. Thesis on scalable microservices architecture.",
+      degree: "Bachelor of Technology in Computer Science",
+      institution: "Amritsar College of Engineering and Technology",
+      period: "Aug 2018 - May 2012",
+      description: "Focused on Java Programming Language and distributed system that is scalable microservices architecture.",
     },
     {
-      degree: "Bachelor of Science in Software Engineering",
-      institution: "State University",
-      period: "Sep 2012 - May 2016",
-      description: "Graduated with honors. Active member of the coding club.",
+      degree: "12th",
+      institution: "Saint Soldier Public School",
+      period: "Apr 2017 - Mar 2018",
+      description: "cleared 12th with 89% in Science stream.",
     },
   ]
 };

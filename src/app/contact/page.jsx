@@ -5,10 +5,10 @@ import { Mail, Linkedin, Github, Phone } from 'lucide-react';
 import Link from 'next/link';
 
 const contactDetails = {
-  email: "alex.johnson.dev@email.com",
-  phone: "+1 (555) 123-4567", // Optional
-  linkedin: "https://linkedin.com/in/alexjohnsondev", // Replace with actual URL
-  github: "https://github.com/alexjohnsondev", // Replace with actual URL
+  email: "yashudaiwal2@email.com",
+  phone: "+918386015884", // Optional
+  linkedin: "https://www.linkedin.com/in/yash-udaiwal-09a013186/", // Replace with actual URL
+  github: "https://github.com/yash-udaiwal", // Replace with actual URL
 };
 
 export default function ContactPage() {
