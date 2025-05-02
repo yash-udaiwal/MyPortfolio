@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Home() {
   // Replace with actual data
-  const name = "fhejdtg";
+  const name = "Yash Udaiwal";
   const jobTitle = "Backend Developer";
   const tagline = "Building scalable web applications with modern technologies.";
 
