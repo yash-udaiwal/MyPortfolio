@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "skipLibCheck": true,
+    "strict": false, // Disable strict type checking for JS project
+    "noEmit": true, // Still prevent emitting files, Next.js handles this
+    "esModuleInterop": true, // Keep for compatibility
+    "module": "esnext", // Keep module type
+    "moduleResolution": "bundler", // Use bundler resolution
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve", // Keep JSX processing
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".", // Needed for paths
+    "paths": {
+      "@/*": ["./src/*"] // Keep path aliases
+    }
+  },
+  // Update include/exclude for JS/JSX files
+  "include": ["next-env.d.ts", "**/*.js", "**/*.jsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
